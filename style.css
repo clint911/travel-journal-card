@@ -1,0 +1,164 @@
+body{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 40px;
+  padding: 60px;
+}
+nav {
+  position: absolute;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+background: #F55A5A;
+  z-index: 100;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+nav > h1 {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 34.4608px;
+margin-top: 50px;
+line-height: 18px;
+letter-spacing: -0.075em;
+
+color: #FFFFFF;
+}
+
+.content__container {
+width: 85%;
+height: 360px;
+left: 40px;
+right: 40px;
+margin: 40px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+border-style:outset;
+align-self: auto;
+
+}
+img {
+width: 200px;
+/*height: 200px;     */
+height: 100%;
+/*left: 40px;*/
+left: 9.4%;
+
+right: 385px;
+top: 100px;
+border-radius: 5px;
+
+display: flex;
+align-self: flex-start;
+}
+
+.content__container__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+  margin-left: 30px;
+}
+.content__container__right__first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.content__container__right__first > h5 {
+  /*
+width: 40px;
+height: 10px;
+left: 195px;
+top: 119px;     */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11.5px;
+line-height: 12px;
+letter-spacing: 0.17em;
+
+color: #2B283A;
+}
+
+.content__container__right > h6 {
+  /*
+width: 106px;
+height: 13px;
+left: 247px;
+top: 119px;
+   */
+}
+.content__container__right__first > h6 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+}
+
+content__container__right > h1 {
+  /*
+width: 326px;
+height: 40px;
+left: 184px;
+top: 136px;
+   */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+}
+
+.content__container__right > h4 {
+  /*
+width: 319px;
+height: 11px;
+left: 184px;
+top: 183px;
+   */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 12px;
+
+color: #2B283A;
+}
+
+.content__container__right > p {
+  /*
+width: 326px;
+height: 45px;
+left: 184px;
+top: 203px;
+    */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #2B283A;
+}
